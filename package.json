@@ -5,6 +5,8 @@
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider & vue-cli-service serve",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider & vue-cli-service build",
+    "buildme":"vue-cli-service build --watch --mode production --no-clean",
+    "dev_t": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run dev\n",
     "lint": "set NODE_OPTIONS=--openssl-legacy-provider & vue-cli-service lint"
   },
   "dependencies": {
