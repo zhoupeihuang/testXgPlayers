@@ -11,7 +11,7 @@
 <script>
 import { computed, reactive,onMounted, onUnmounted ,ref, toRefs, watch} from 'vue'
 import { useRoute } from 'vue-router';
-import node1 from '../../assets/video/node1.mp4'
+import node1 from '../../assets/video/node1.mp4' // 本地地址
 export default {
   name:'',
   props: {
