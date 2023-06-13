@@ -2,7 +2,8 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/zhibo">直播</router-link> |
-    <router-link to="/huifang">回放</router-link>
+    <router-link to="/huifang">回放</router-link> |
+    <router-link to="/video">video</router-link>
   </div>
   <router-view/>
 </template>
