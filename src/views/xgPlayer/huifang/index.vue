@@ -19,7 +19,7 @@ export default {
 		getVideo(){
 			this.videoPlayer = new Player({
 				el: document.querySelector("#mmid"),
-				url: 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4',
+				url: 'http://10.1.13.52:80/vodlive/loadmin/be05977add575832dc52655d4ad5c42e/0/20230628000000_20230628120000/FA-12-91_1.m3u8',
 				// url: 'http://192.168.10.215:8080/live/livestream.m3u8',
 				// url: "http://192.168.10.215:8080/live/livestream.flv",
 				width: "600px",
@@ -36,4 +36,12 @@ export default {
 		}
 	}
 }
+/**
+实时预览URL：
+http://10.1.13.52:80/hls/loadmin/be05977add575832dc52655d4ad5c42e/0/FA-12-91_1.m3u8
+
+回放URL:
+http://10.1.13.52:80/vodlive/loadmin/be05977add575832dc52655d4ad5c42e/0/20230628000000_20230628120000/FA-12-91_1.m3u8
+
+*/
 </script>

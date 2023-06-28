@@ -14,7 +14,7 @@ export default {
     return {
       videoPlayer: null,
       url3:
-        "https://sf1-hscdn-tos.pstatp.com/obj/media-fe/xgplayer_doc_video/flv/xgplayer-demo-360p.flv",
+        "http://10.1.13.52:80/hls/loadmin/be05977add575832dc52655d4ad5c42e/0/FA-12-91_1.m3u8",
     };
   },
   mounted() {
