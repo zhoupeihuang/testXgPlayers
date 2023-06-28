@@ -6,7 +6,7 @@
 </template>
 <script>
 import Player from 'xgplayer'
-// import HlsJsPlayer from "xgplayer-hls.js";
+import HlsJsPlayer from "xgplayer-hls.js";
 import FlvPlugin from 'xgplayer-flv'
 // npm i xgplayer-hls.js --save
 export default {
@@ -37,7 +37,7 @@ export default {
      this.videoPlayer =  new Player({
           id:'mmid',
           isLive: true,
-          plugins: [FlvPlugin],  // 以xgplayer的插件形式传入并挂载
+          plugins: [HlsJsPlayer],  // 以xgplayer的插件形式传入并挂载
           url: this.url3,
           width: "600px",
           height: "440px",
