@@ -38,7 +38,7 @@ export default {
           id:'mmid',
           isLive: true,
           plugins: [HlsJsPlayer],  // 以xgplayer的插件形式传入并挂载
-          url: this.url3,
+          url: "http://10.1.13.52:80/hls/loadmin/be05977add575832dc52655d4ad5c42e/0/FA-12-91_1.m3u8",
           width: "600px",
           height: "440px",
           volume: 0.6, // 初始音量
